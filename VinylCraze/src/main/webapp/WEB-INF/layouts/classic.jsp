@@ -24,6 +24,37 @@
 	crossorigin="anonymous"></script>
 
 <style type="text/css">
+
+/* Common */
+h1 {
+	color: #c1c1c1;
+}
+
+h2 {
+	color: #c1c1c1;
+}
+
+h4 {
+	color: #c1c1c1;
+}
+
+p {
+	color: #c1c1c1;
+}
+
+a {
+	color:#c1c1c1;
+}
+
+th {
+	color:white;
+}
+td {
+color:white;
+}
+
+/* End Common */
+
 .blockquote {
 	padding: 20px;
 	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px
@@ -41,6 +72,7 @@
 body {
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
+	background: rgb(20, 23, 20);
 }
 
 html {
@@ -137,6 +169,63 @@ main {
 .lh-tight {
 	line-height: 1.25;
 }
+
+.card-body {
+	background-color: rgb(40,40,40);
+}
+
+.card-header {
+	background-color: #0e0a0a;
+}
+
+.form-label {
+	color: white;
+}
+
+label {
+	color: white;
+}
+
+strong {
+	color: #c1c1c1;
+}
+
+address {
+	color: white;
+}
+
+legend {
+	color: #c1c1c1;
+}
+
+i.fas.fa-tachometer-alt {
+	color: #c1c1c1;
+}
+
+.link-dark {
+	color: #c1c1c1;
+}
+
+.col-2 {
+	color: #c1c1c1;
+}
+
+ol.carousel-indicators {
+	position: relative;
+}
+
+.col-sm-3 {
+	max-width: 17%;
+}
+
+.carousel-inner {
+	max-width: 56.2%;
+	left: 22%;
+}
+
+.img-box {
+	border: 5px solid black;
+}
 </style>
 
 
@@ -150,8 +239,10 @@ main {
 		
 			<tiles:insertAttribute name="body" />
 		
-	
+	<tiles:insertAttribute name="footer" />
 
-			<tiles:insertAttribute name="footer" />
+			
 </body>
+
+
 </html>

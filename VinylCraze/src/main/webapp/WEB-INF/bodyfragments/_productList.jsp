@@ -32,7 +32,7 @@
 		modelAttribute="form">
 		<div class="card shadow border-dark mb-5 bg-body rounded">
 			<h5 class="card-header"
-				style="color: white;">Products</h5>
+				style="color: white">Products</h5>
 			<div class="card-body">
 				<div class="row g-3">
 					<s:bind path="name">

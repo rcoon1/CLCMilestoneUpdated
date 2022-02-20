@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gcu</groupId>
-	<artifactId>E-Commerce</artifactId>
+	<artifactId>VinylCraze</artifactId>
 
 	<packaging>war</packaging>
-	<name>E-Commerce</name>
-	<description>E-Commerce Spring Boot</description>
+	<name>VinylCraze</name>
+	<description>Vinyl Craze Spring Boot</description>
 	<properties>
 		<java.version>15</java.version>
 	</properties>
